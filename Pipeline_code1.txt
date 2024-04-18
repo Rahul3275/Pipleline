@@ -1,0 +1,31 @@
+pipeline{
+    agent any
+    stages{
+        stage("Build") {
+            steps{
+                 echo "Building the Application ..."
+                 echo "Application was ready when the Building branch excutes sucessfully"
+            }
+        }
+         stage("Test") {
+             steps {
+                 echo "Application is ready for testing"
+                 echo "After building the application is tested"
+             }
+         }
+         stage("Deploy") {
+             steps {
+                 echo "Deploying of application"
+                 echo "After testing application is going to deploy in the client server"
+                 echo "This is the last step"
+             }
+         }
+         stage("Project finished") {
+             steps {
+                 echo "Project is completed"
+             }
+         }
+        }
+       
+        
+    }
