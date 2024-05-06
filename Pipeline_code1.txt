@@ -1,1 +1,1 @@
-"New content adding " 
+"New content adding into git" 
