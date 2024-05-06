@@ -1,1 +1,2 @@
 "New content adding into git" 
+"Changing text adding new text" 
